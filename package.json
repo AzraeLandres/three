@@ -4,6 +4,9 @@
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "start": "node ./server.js"
   },
+  "engines": {
+    "node": "16.20.2"
+  },
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
