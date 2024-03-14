@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "webpack --config ./bundler/webpack.prod.js",
+    "build": "node ./server.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "start": "node ./server.js"
   },
